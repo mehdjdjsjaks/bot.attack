@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>چت‌بات دستیار اتک</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="matrixCanvas"></canvas>
+
+    <div id="chat-box">
+        <p id="bot-message">سلام من ربات دستیار اتک هستم! چطور می‌تونم بهتون کمک کنم؟</p>
+        <p>گزینه‌ها:</p>
+        <p>1. آموزش فیلتر کردن</p>
+        <p>2. آموزش USB KILLER</p>
+        <input type="text" id="user-input" placeholder="عدد گزینه را وارد کنید...">
+        <button onclick="processInput()">ارسال</button>
+        <p id="response"></p>
+    </div>
+
+    <script src="matrix.js"></script>
+    <script src="chatbot.js"></script>
+</body>
+</html>
